@@ -1,9 +1,11 @@
+import 'package:flutter_crud/models/user.model.dart';
+
 const DUMMY_USERS = {
   '1' : const User(
-    id : "1",
-    nome : "Mariel",
-    email : "mariel@email.com",
-    avatarUrl : "https://cdn.pixabay.com/photo/2016/04/01/12/11/avatar-1300582_960_720.png"
+    id : '1',
+    nome : 'Mariel',
+    email : 'mariel@email.com',
+    avatarUrl : 'https://cdn.pixabay.com/photo/2016/04/01/12/11/avatar-1300582_960_720.png'
   ),
   '2' : const User(
     id : "2",
